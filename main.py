@@ -7,7 +7,7 @@ result = tf.multiply(x1,x2)
 
 sess = tf.Session()
 
-print(result)
+print(sess.run(result))
 
 sess.close()
 
